@@ -1,0 +1,200 @@
+{
+    "cashew anthracnose": {
+        "description": "Fungal disease causing dark brown spots on leaves, flowers, and young fruits.",
+        "symptoms": ["Dark brown irregular spots on leaves", "Flower and fruit drop", "Premature leaf fall"],
+        "causes": "Colletotrichum gloeosporioides fungus",
+        "treatment": "Apply copper-based fungicides during wet season. Prune affected branches and ensure good air circulation.",
+        "prevention": "Plant resistant varieties, improve drainage, avoid overhead irrigation during flowering",
+        "severity": "Moderate to High",
+        "economic_impact": "20-40% yield loss if untreated"
+    },
+    "cashew gumosis": {
+        "description": "Bark disease causing gum exudation from trunk and branches.",
+        "symptoms": ["Gum oozing from bark", "Bark cracking and peeling", "Branch dieback"],
+        "causes": "Various fungi and environmental stress",
+        "treatment": "Remove affected bark, apply fungicide paste, improve tree nutrition and drainage.",
+        "prevention": "Avoid mechanical injuries, proper pruning practices, balanced fertilization",
+        "severity": "High",
+        "economic_impact": "Can cause tree death if severe"
+    },
+    "cashew healthy": {
+        "description": "Cashew plant appears healthy with no visible disease symptoms.",
+        "symptoms": ["Green, vigorous leaves", "Normal growth pattern", "No spots or lesions"],
+        "causes": "No disease present",
+        "treatment": "Continue regular monitoring and maintain good agricultural practices.",
+        "prevention": "Regular inspection, proper nutrition, and integrated pest management",
+        "severity": "None",
+        "economic_impact": "Optimal productivity expected"
+    },
+    "cashew leaf miner": {
+        "description": "Insect pest creating serpentine mines in cashew leaves.",
+        "symptoms": ["Serpentine tunnels in leaves", "Leaf yellowing", "Premature leaf drop"],
+        "causes": "Leaf miner larvae (Acrocercops syngramma)",
+        "treatment": "Apply systemic insecticides, remove and destroy affected leaves, use pheromone traps.",
+        "prevention": "Regular monitoring, maintain field hygiene, encourage natural predators",
+        "severity": "Moderate",
+        "economic_impact": "10-25% yield reduction due to reduced photosynthesis"
+    },
+    "cashew red rust": {
+        "description": "Fungal disease causing reddish-brown pustules on leaf undersides.",
+        "symptoms": ["Reddish-brown pustules on leaf undersides", "Yellow spots on upper surface", "Leaf drop"],
+        "causes": "Cephaleuros virescens algae",
+        "treatment": "Apply copper-based fungicides, improve air circulation, reduce humidity around plants.",
+        "prevention": "Proper spacing, pruning for air circulation, avoid excessive moisture",
+        "severity": "Moderate",
+        "economic_impact": "15-30% yield loss in severe cases"
+    },
+    "cassava bacterial blight": {
+        "description": "Bacterial disease causing angular leaf spots and stem cankers.",
+        "symptoms": ["Angular leaf spots with yellow halos", "Stem cankers", "Leaf blight", "Plant wilting"],
+        "causes": "Xanthomonas axonopodis bacteria",
+        "treatment": "Remove infected plants, apply copper-based bactericides, use resistant varieties.",
+        "prevention": "Use certified disease-free planting material, crop rotation, field sanitation",
+        "severity": "High",
+        "economic_impact": "50-100% yield loss in susceptible varieties"
+    },
+    "cassava brown spot": {
+        "description": "Fungal disease causing brown spots with yellow halos on leaves.",
+        "symptoms": ["Brown circular spots with yellow margins", "Premature leaf drop", "Reduced tuber yield"],
+        "causes": "Cercospora henningsii fungus",
+        "treatment": "Apply fungicides, remove infected leaves, ensure proper plant spacing.",
+        "prevention": "Use resistant varieties, improve air circulation, balanced fertilization",
+        "severity": "Moderate",
+        "economic_impact": "20-40% yield reduction"
+    },
+    "cassava green mite": {
+        "description": "Microscopic pest causing leaf yellowing and bronzing.",
+        "symptoms": ["Leaf yellowing and bronzing", "Fine webbing on leaves", "Stunted growth"],
+        "causes": "Mononychellus tanajoa (green spider mite)",
+        "treatment": "Apply miticides, increase humidity around plants, release predatory mites.",
+        "prevention": "Regular monitoring, maintain field moisture, encourage natural enemies",
+        "severity": "Moderate to High",
+        "economic_impact": "30-80% yield loss in severe infestations"
+    },
+    "cassava healthy": {
+        "description": "Cassava plant appears healthy with no visible disease symptoms.",
+        "symptoms": ["Dark green, vigorous leaves", "Normal stem development", "Good root formation"],
+        "causes": "No disease present",
+        "treatment": "Continue regular monitoring and maintain good agricultural practices.",
+        "prevention": "Use healthy planting material, proper spacing, integrated pest management",
+        "severity": "None",
+        "economic_impact": "Optimal tuber yield expected"
+    },
+    "cassava mosaic": {
+        "description": "Viral disease causing mosaic patterns and leaf distortion.",
+        "symptoms": ["Mosaic pattern on leaves", "Leaf distortion", "Stunted growth", "Reduced tuber size"],
+        "causes": "Cassava mosaic virus (transmitted by whiteflies)",
+        "treatment": "Remove infected plants immediately, control whitefly vectors, use resistant varieties.",
+        "prevention": "Use certified virus-free planting material, control whiteflies, field sanitation",
+        "severity": "Very High",
+        "economic_impact": "70-100% yield loss in susceptible varieties"
+    },
+    "maize fall armyworm": {
+        "description": "Destructive pest caterpillar feeding on maize leaves and stems.",
+        "symptoms": ["Irregular holes in leaves", "Window-pane feeding pattern", "Frass in leaf whorls"],
+        "causes": "Spodoptera frugiperda larvae",
+        "treatment": "Apply appropriate insecticides, use biological control agents, handpick larvae when possible.",
+        "prevention": "Early planting, crop rotation, intercropping, pheromone traps",
+        "severity": "High",
+        "economic_impact": "20-70% yield loss depending on infestation level"
+    },
+    "maize grasshoper": {
+        "description": "Grasshopper pest causing defoliation and stem damage.",
+        "symptoms": ["Irregular holes in leaves", "Defoliation", "Stem cutting", "Reduced plant vigor"],
+        "causes": "Various grasshopper species",
+        "treatment": "Apply contact insecticides, use biopesticides, encourage natural predators.",
+        "prevention": "Field sanitation, remove alternate hosts, biological control",
+        "severity": "Moderate",
+        "economic_impact": "10-30% yield loss in severe infestations"
+    },
+    "maize healthy": {
+        "description": "Maize plant appears healthy with no visible disease or pest damage.",
+        "symptoms": ["Vibrant green leaves", "Normal growth rate", "No pest damage", "Good ear development"],
+        "causes": "No disease or pest present",
+        "treatment": "Continue regular monitoring and maintain good agricultural practices.",
+        "prevention": "Balanced nutrition, proper spacing, integrated pest and disease management",
+        "severity": "None",
+        "economic_impact": "Maximum yield potential"
+    },
+    "maize leaf beetle": {
+        "description": "Beetle pest causing characteristic hole patterns in maize leaves.",
+        "symptoms": ["Small round holes in leaves", "Skeletonized leaves", "Reduced photosynthesis"],
+        "causes": "Diabrotica species (leaf beetles)",
+        "treatment": "Apply insecticides, use sticky traps, encourage beneficial insects.",
+        "prevention": "Crop rotation, field sanitation, resistant varieties",
+        "severity": "Moderate",
+        "economic_impact": "15-25% yield reduction"
+    },
+    "maize leaf blight": {
+        "description": "Fungal disease causing elongated lesions on maize leaves.",
+        "symptoms": ["Elliptical gray-green lesions", "Lesions with dark borders", "Premature leaf death"],
+        "causes": "Exserohilum turcicum fungus",
+        "treatment": "Apply fungicides, plant resistant varieties, remove crop residues.",
+        "prevention": "Crop rotation, balanced fertilization, proper plant spacing",
+        "severity": "Moderate to High",
+        "economic_impact": "30-70% yield loss in susceptible varieties"
+    },
+    "maize leaf spot": {
+        "description": "Fungal disease causing circular to oval spots on leaves.",
+        "symptoms": ["Circular brown spots with light centers", "Yellow halos around spots", "Premature senescence"],
+        "causes": "Bipolaris maydis fungus",
+        "treatment": "Apply fungicides, ensure good air circulation, remove infected debris.",
+        "prevention": "Resistant varieties, crop rotation, balanced nutrition",
+        "severity": "Moderate",
+        "economic_impact": "20-50% yield loss"
+    },
+    "maize streak virus": {
+        "description": "Viral disease causing characteristic streaking on maize leaves.",
+        "symptoms": ["Yellow-white streaks parallel to leaf veins", "Stunted growth", "Poor ear development"],
+        "causes": "Maize streak virus (transmitted by leafhoppers)",
+        "treatment": "Remove infected plants, control leafhopper vectors, use resistant varieties.",
+        "prevention": "Plant resistant varieties, control vectors, avoid late planting",
+        "severity": "High",
+        "economic_impact": "50-100% yield loss in susceptible varieties"
+    },
+    "tomato healthy": {
+        "description": "Tomato plant appears healthy with no visible disease symptoms.",
+        "symptoms": ["Deep green foliage", "Normal fruit development", "Vigorous growth"],
+        "causes": "No disease present",
+        "treatment": "Continue regular monitoring and maintain good agricultural practices.",
+        "prevention": "Proper nutrition, adequate spacing, integrated disease management",
+        "severity": "None",
+        "economic_impact": "Optimal fruit yield and quality"
+    },
+    "tomato leaf blight": {
+        "description": "Fungal disease causing brown spots and leaf death in tomatoes.",
+        "symptoms": ["Brown spots with concentric rings", "Yellow halos", "Rapid leaf death"],
+        "causes": "Alternaria solani fungus",
+        "treatment": "Apply fungicides, remove infected leaves, improve air circulation.",
+        "prevention": "Drip irrigation, mulching, crop rotation, resistant varieties",
+        "severity": "High",
+        "economic_impact": "40-80% yield loss if untreated"
+    },
+    "tomato leaf curl": {
+        "description": "Viral disease causing upward curling and thickening of tomato leaves.",
+        "symptoms": ["Upward leaf curling", "Leaf thickening", "Stunted growth", "Reduced fruit set"],
+        "causes": "Tomato leaf curl virus (transmitted by whiteflies)",
+        "treatment": "Remove infected plants, control whitefly vectors, use reflective mulch.",
+        "prevention": "Use virus-free seedlings, control whiteflies, resistant varieties",
+        "severity": "Very High",
+        "economic_impact": "70-100% yield loss"
+    },
+    "tomato septoria leaf spot": {
+        "description": "Fungal disease causing small circular spots with dark borders.",
+        "symptoms": ["Small circular spots with dark borders", "Yellow halos", "Progressive defoliation"],
+        "causes": "Septoria lycopersici fungus",
+        "treatment": "Apply fungicides, remove lower leaves, ensure good air circulation.",
+        "prevention": "Avoid overhead watering, mulch plants, crop rotation",
+        "severity": "Moderate to High",
+        "economic_impact": "30-60% yield reduction"
+    },
+    "tomato verticulium wilt": {
+        "description": "Soil-borne fungal disease causing wilting and yellowing.",
+        "symptoms": ["Yellowing of lower leaves", "Wilting during day", "Brown vascular discoloration"],
+        "causes": "Verticillium dahliae fungus",
+        "treatment": "No cure available - remove infected plants, improve drainage, soil solarization.",
+        "prevention": "Use resistant varieties, soil sterilization, crop rotation with non-hosts",
+        "severity": "Very High",
+        "economic_impact": "Complete plant loss in severe cases"
+    }
+}
