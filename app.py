@@ -51,25 +51,37 @@ def load_model():
         class_names = load_class_names()
         num_classes = len(class_names)
         
-        # Create model architecture (EfficientNetB0)
-        model = efficientnet_b0(pretrained=False)
-        
-        # Modify final layer for your number of classes
-        model.classifier[1] = nn.Linear(model.classifier[1].in_features, num_classes)
-        
-        # Load trained weights
+        # Load checkpoint first to inspect the architecture
         checkpoint = torch.load(MODEL_PATH, map_location=device)
         
         # Handle different checkpoint formats
         if isinstance(checkpoint, dict):
             if 'model_state_dict' in checkpoint:
-                model.load_state_dict(checkpoint['model_state_dict'])
+                state_dict = checkpoint['model_state_dict']
             elif 'state_dict' in checkpoint:
-                model.load_state_dict(checkpoint['state_dict'])
+                state_dict = checkpoint['state_dict']
             else:
-                model.load_state_dict(checkpoint)
+                state_dict = checkpoint
         else:
-            model.load_state_dict(checkpoint)
+            state_dict = checkpoint
+        
+        # Create model architecture (EfficientNetB0)
+        model = efficientnet_b0(pretrained=False)
+        
+        # Recreate your exact classifier architecture
+        # (0): Linear(in_features=1280, out_features=256, bias=True)
+        # (1): ReLU()
+        # (2): Dropout(p=0.5, inplace=False)
+        # (3): Linear(in_features=256, out_features=22, bias=True)
+        model.classifier = nn.Sequential(
+            nn.Linear(1280, 256),  # classifier.0
+            nn.ReLU(),             # classifier.1
+            nn.Dropout(p=0.5, inplace=False),  # classifier.2
+            nn.Linear(256, num_classes)  # classifier.3
+        )
+        
+        # Load the state dict
+        model.load_state_dict(state_dict)
         
         model.to(device)
         model.eval()
