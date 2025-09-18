@@ -527,10 +527,16 @@ def main():
         - **Preprocessing:** ImageNet normalization
         """)
     
-    # Load model and class names
+    # Load class names first
+    class_names = load_class_names()
+    
+    if class_names is None:
+        st.error("❌ Failed to load class names. Please check your class_names.json file.")
+        return
+    
+    # Load model 
     with st.spinner("🔄 Loading PyTorch AI model..."):
         model_data = load_model()
-        class_names = load_class_names()
     
     if model_data[0] is None:
         st.error("❌ Failed to load the PyTorch model. Please check your model file.")
