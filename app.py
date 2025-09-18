@@ -479,6 +479,13 @@ def main():
     st.markdown("**AI-Powered Disease Detection for Cashew, Cassava, Maize & Tomato | EfficientNetB0 PyTorch**")
     st.markdown("---")
     
+    # Load class names at the very beginning
+    class_names = load_class_names()
+    
+    if class_names is None:
+        st.error("❌ Failed to load class names. Please check your class_names.json file.")
+        return
+    
     # Device info
     device_info = "🖥️ CPU" if not torch.cuda.is_available() else f"🚀 GPU ({torch.cuda.get_device_name(0)})"
     st.sidebar.success(f"**Computing Device:** {device_info}")
@@ -526,13 +533,6 @@ def main():
         - **Framework:** PyTorch + Torchvision
         - **Preprocessing:** ImageNet normalization
         """)
-    
-    # Load class names first
-    class_names = load_class_names()
-    
-    if class_names is None:
-        st.error("❌ Failed to load class names. Please check your class_names.json file.")
-        return
     
     # Load model 
     with st.spinner("🔄 Loading PyTorch AI model..."):
