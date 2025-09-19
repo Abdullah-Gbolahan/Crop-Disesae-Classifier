@@ -66,7 +66,7 @@ def load_model():
             state_dict = checkpoint
         
         # Create model architecture (EfficientNetB0)
-        model = efficientnet_b0(pretrained=False)
+        model = efficientnet_b0(weights=None)  # Updated from pretrained=False
         
         # Recreate your exact classifier architecture
         # (0): Linear(in_features=1280, out_features=256, bias=True)
@@ -408,7 +408,7 @@ def display_results(results, image):
     
     with col1:
         st.subheader("📸 Analyzed Crop Image")
-        st.image(image, caption="Uploaded Crop Image", use_column_width=True)
+        st.image(image, caption="Uploaded Crop Image", use_container_width=True)
         
         # Image details
         st.info(f"**Image Size:** {image.size[0]} x {image.size[1]} pixels")
@@ -481,7 +481,7 @@ def display_results(results, image):
     
     fig.update_traces(texttemplate='%{text:.1%}', textposition='outside')
     fig.update_layout(height=400, showlegend=False)
-    fig.update_xaxis(tickformat=',.0%')
+    fig.update_xaxes(tickformat=',.0%')  # Changed from update_xaxis to update_xaxes
     
     st.plotly_chart(fig, use_container_width=True)
 
